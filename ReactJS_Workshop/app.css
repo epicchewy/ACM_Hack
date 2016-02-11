@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 20px;
+  background: #2c3e50;
+  font-family: 'Avenir'; }
+
+.filter-list {
+  margin: auto;
+  width: 400px;
+  background: #3498db;
+  border-radius: 5px;
+  border: 1px solid #196090; }
+  .filter-list .header-wrapper {
+    height: 125px;
+    text-align: center; }
+    .filter-list .header-wrapper h1 {
+      color: #E9D460; }
+  .filter-list .input-list {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0;
+    font-size: 24px;
+    border-bottom: 3px solid #fff;
+    transition: border-bottom 1s; }
+    .filter-list .input-list:focus {
+      border-bottom: 3px solid #000; }
+  .filter-list ul {
+    margin: 0;
+    padding: 0; }
+    .filter-list ul li {
+      list-style-type: none;
+      margin: 0;
+      color: white;
+      padding: 10px 20px;
+      border-top: 1px solid #196090; }
+      .filter-list ul li:hover {
+        background: #2980b9;
+        transition: background .2s; }
+
+/*# sourceMappingURL=app.css.map */
