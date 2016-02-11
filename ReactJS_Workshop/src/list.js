@@ -1,9 +1,4 @@
 var Header = React.createClass({
-  getInitialState: function (){
-    return {
-      header : this.props.header
-    }
-  },
   render: function(){
     return (
         <div className = "header-wrapper">
@@ -14,9 +9,6 @@ var Header = React.createClass({
 });
 
 var List = React.createClass({
-  handleHover : function(text){
-     this.props.onClick(text);
-  },
   render: function(){
     return (
       <ul>
@@ -56,11 +48,6 @@ var FilteredList = React.createClass({
   },
   componentWillMount: function(){
     this.setState({items: this.state.initialItems})
-  },
-  handleClick: function(text){
-     this.setState({
-       hoveredItem : text
-     });
   },
   render: function(){
     return (
