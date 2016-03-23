@@ -7,6 +7,20 @@ You can see what we built in the workshop - [here](http://acm-react.herokuapp.co
 #Introduction
 ReactJS is Facebook's answer to the short comings of current front-end JavaScript tools that employ the traditional MVC framework. Using JSX, React engineers can quickly write powerful and efficient apps that employ a uni-directional data flow. This tool revolutionizes UI development because it makes apps _simple_ and _dynamic_. For more information about React, check out the [presentation](https://github.com/epicchewy/ACM_Hack/blob/master/ReactJS_Workshop/Intro-to-React-JS.pdf) we gave at the workshop.
 
+#Installation
+To play around with the project on your own local setup, follow these steps:
++ Clone the repo onto your computer
++ Open Terminal/CMD Prompt and navigate to the directory
+```
+cd path/to/react/
+```
++ Because of the project's dependencies, you have to run a local server to view the project.
+
+```
+python -m SimpleHTTPServer
+```
++ In your browser, go to localhost:8000.
+
 #Resources
 React can definitely be confusing when first learning it, so here are some helpful resources on JSX, ReactJS, and more.
 * [All about JSX](https://facebook.github.io/jsx/)
